@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/move_relalay"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#777777">
+
+        <com.zc.moveview.MoveLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></com.zc.moveview.MoveLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/move_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="添加Tag"/>
+
+    <Button
+        android:id="@+id/move_save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="保存封面"/>
+
+    <ImageView
+        android:id="@+id/move_save_img"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"/>
+
+</LinearLayout>

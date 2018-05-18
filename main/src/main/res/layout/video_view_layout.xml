@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <com.wuba.wplayer.widget.WPlayerVideoView
+        android:id="@+id/video_header_video"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/video_header_cover_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_icon"/>
+
+    <RelativeLayout
+        android:id="@+id/video_header_btn_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        >
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:background="@drawable/wf_video_progress_bg"-->
+            <!--android:clickable="true"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingBottom="@dimen/dimen_15dp"-->
+            <!--android:paddingTop="@dimen/dimen_15dp">-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/video_header_btn_play"-->
+                <!--android:layout_width="45dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@null"-->
+                <!--android:contentDescription="@null"-->
+                <!--android:paddingLeft="@dimen/dimen_15dp"-->
+                <!--android:paddingRight="@dimen/dimen_10dp"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/wf_video_detail_play"/>-->
+
+            <!--<SeekBar-->
+                <!--android:id="@+id/video_header_progressbar"-->
+                <!--style="@style/StyleVideoSeekBer"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:max="100"-->
+                <!--android:paddingLeft="@dimen/dimen_5dp"-->
+                <!--android:paddingRight="@dimen/dimen_15dp"-->
+                <!--android:progress="0"-->
+                <!--android:thumb="@drawable/wf_video_seekbar_btn"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/video_header_time_tv"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="@dimen/dimen_15dp"-->
+                <!--android:text="00:00"-->
+                <!--android:textColor="@color/white"/>-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/video_header_error_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent_half"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/video_header_error_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="视频出错了，请检查网络状况"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_15sp"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/video_header_error_btn"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/video_header_error_tv"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@drawable/btn_videp_play"-->
+            <!--android:text="重新播放"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/dimen_15sp"-->
+            <!--/>-->
+    </RelativeLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/video_header_center_play"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:src="@drawable/wf_video_list_play"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/video_header_loading"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:indeterminateBehavior="repeat"-->
+        <!--android:indeterminateDrawable="@drawable/anim_video_loading"-->
+        <!--android:visibility="visible"-->
+        <!--/>-->
+
+</RelativeLayout>

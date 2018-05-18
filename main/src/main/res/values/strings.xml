@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DemoByZC</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_nest">NestActivity</string>
+    <string name="title_activity_fans">FansActivity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_db">TestDBActivity</string>
+    <string name="title_activity_test_iv_reclcy">TestIvReclcyActivity</string>
+    <string name="title_activity_hor_reclyer">HorReclyerActivity</string>
+    <string name="title_activity_demo_image_leak">DemoImageLeakActivity</string>
+    <string name="title_activity_sliding_menu">SlidingMenuActivity</string>
+    <string name="title_activity_sql_test">SqlTestActivity</string>
+</resources>

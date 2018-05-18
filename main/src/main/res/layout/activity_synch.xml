@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_synch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zc.synch.SynchActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/synch_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:minLines="4"
+        android:maxLines="4"
+        android:focusable="false"
+        />
+
+    <Button
+        android:id="@+id/synch_clear"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除"/>
+    <Button
+        android:id="@+id/synch_oninstance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="synchonized 在普通方法上"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/synch_onstatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="synchonized 在static方法上"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/synch_wait_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wait ADD notify"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/synch_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lock"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>

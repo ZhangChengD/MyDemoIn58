@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">aarmodule</string>
+    <string name="title_activity_module_main">ModuleMainActivity</string>
+</resources>
