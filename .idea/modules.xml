@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyDemoIn58.iml" filepath="$PROJECT_DIR$/MyDemoIn58.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aarmodule/aarmodule.iml" filepath="$PROJECT_DIR$/aarmodule/aarmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rnlib/rnlib.iml" filepath="$PROJECT_DIR$/rnlib/rnlib.iml" />
+    </modules>
+  </component>
+</project>
